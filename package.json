@@ -18,7 +18,9 @@
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
     "format": "prettier --write \"**/*.{js,ts,tsx,json,md}\"",
     "release": "release-it",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "pull": "git pull origin main",
+    "push": "git pull origin main && git push origin main"
   },
   "devDependencies": {
     "@babel/core": "^7.22.0",
