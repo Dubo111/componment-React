@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "importHelpers": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "rootDir": "src"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "example"]
+}

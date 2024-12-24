@@ -1,0 +1,40 @@
+.ui-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+  
+  &-default {
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.85);
+    
+    &:hover {
+      border-color: #1890ff;
+      color: #1890ff;
+    }
+  }
+  
+  &-primary {
+    border: 1px solid #1890ff;
+    background: #1890ff;
+    color: #fff;
+    
+    &:hover {
+      background: #40a9ff;
+      border-color: #40a9ff;
+    }
+  }
+  
+  &-dashed {
+    border: 1px dashed #d9d9d9;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.85);
+    
+    &:hover {
+      border-color: #1890ff;
+      color: #1890ff;
+    }
+  }
+} 
